@@ -1,0 +1,17 @@
+<footer class="footer bg-dark  text-white row mx-0">
+  <div class="container-fluid  flex-column m-5">
+   	<div class="row h-100 justify-content-around align-items-center text-white ">
+	      <div class="col-md-4  text-right">
+	        <p>© 2019 Todos los derechos reservados.<br>Diseñado por Vanessa Cordero</p>
+	      </div>
+	      <div class="col-md-4 text-center ">
+	        <img src="images/logo-name.png" width="200vh" height="auto" alt="Logo del restaurante">
+	      </div>
+	      <div class="col-md-4 row">
+	        <div class="col-4"><img src="images/fb.png" width="100vh" height="auto" alt="Logo de FaceBook"></div>
+	        <div class="col-4"><img src="images/ig.png" width="100vh" height="auto" alt="Logo de Instagram"></div>
+	        <div class="col-4"><img src="images/wa.png" width="80vh" height="auto" alt="Logo de WhatsApp"></div>
+	      </div>
+	    </div>
+  </div>
+</footer>
