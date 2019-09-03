@@ -1,0 +1,9 @@
+.fondo-imagen{
+	height: 100vh;
+  height: 50vh;
+  background-image: linear-gradient(264deg, rgba(30,163,213,0.8743872549019608) 0%, rgba(16,11,70,1) 100%), url('https://somospueblo.com/wp-content/uploads/2017/04/procuradur%C3%ADa-general-de-la-Rep%C3%BAblica.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
