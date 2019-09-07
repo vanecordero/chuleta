@@ -1,0 +1,29 @@
+/*-------------------------
+	Variables de colores
+--------------------------*/
+$principal:#FC880D; /*Color de la empresa*/
+
+
+/*-----------------------------
+SOBREESCRIBIENDO LOS ESTILOS DE BOOTSTRAP 
+------------------------------*/
+.btn-primary {
+    background-color: $principal!important;
+    border-color: darken($principal,20%) !important;
+}
+
+//curso encima y enfocado
+.btn-primary:hover, .btn-primary:focus, .btn-outline-primary:hover, .btn-outline-primary:focus  {
+    background-color: darken($principal,10%)!important;
+}
+.btn-primary:active {
+    background-color: darken($principal,20%)!important;
+    border-color: darken($principal,30%) !important;
+}
+.btn-primary:focus, .btn-outline-primary:focus { /*Cuando das click*/
+    box-shadow: 0 0 0 0.2rem rgba($principal, .5)!important;
+}
+.btn-outline-primary{
+	border-color: $principal !important;
+	color: $principal !important;
+}
